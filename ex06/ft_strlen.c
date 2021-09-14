@@ -10,7 +10,6 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-/*void	ft_putchar(char c);*/
 int	ft_strlen(char *str)
 {
 	int	c;
@@ -22,3 +21,10 @@ int	ft_strlen(char *str)
 	}
 	return (c);
 }
+
+/*int main()
+{
+	char str[] = "Wassupyoutubemaadougagnseuleu";
+	int result = ft_strlen(str);
+	printf("%d", result);
+}*/
