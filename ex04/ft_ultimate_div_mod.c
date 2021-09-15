@@ -14,15 +14,15 @@ void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	y;
 
-	*a = *a / *b;
 	y = *a;
-	*b = *a % *b;
+	*a = *a / *b;
+	*b = y % *b;
 }
 
 /*int	main(void)
 {
-	int	u = 9;
-	int	v = 2;
+	int	u = 58;
+	int	v = 10;
 	ft_ultimate_div_mod(&u, &v);
-	printf("div = %d", u);
+	printf("div = %d\nmod = %d", u, v);
 }*/
