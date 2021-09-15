@@ -24,7 +24,7 @@ int	ft_strlen(char *str)
 
 /*int main()
 {
-	char str[] = "Wassupyoutubemaadougagnseuleu";
+	char str[] = "test";
 	int result = ft_strlen(str);
 	printf("%d", result);
 }*/
