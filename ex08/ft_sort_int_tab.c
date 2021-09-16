@@ -14,12 +14,12 @@ void	ft_sort_int_tab(int *tab, int size)
 {
 	int	i;
 	int	y;
-	int c;
+	int	c;
 
 	c = 0;
-	i = 0;
 	while (c++ < size)
 	{
+		i = 0;
 		while (i < size)
 		{
 			y = 0;
