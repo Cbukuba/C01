@@ -14,29 +14,33 @@ void	ft_rev_int_tab(int *tab, int size)
 {
 	int	i;
 	int	y;
+	int	c;
 
-	i = 0;
-	while (i < size)
+	c = 1;
+	while (c <= size)
 	{
-		y = tab[i];
-		tab[i] = tab[size - 1];
-		tab [size - 1] = y;
-		i ++;
-		size --;
+		i = 0;
+		while (i < size)
+		{
+			y = tab[i];
+			tab[i] = tab[size - 1];
+			tab [size - 1] = y;
+			i ++;
+			size --;
+		}
+		c ++;
 	}
 }
-#include <stdio.h>
 
-int	main()
+/*int	main()
 {
 	int tab [] = {1,2,3,4,5};
-	int size = 5;
+	int size = 6;
 	int i = 0;
-	while (i < size)
+	while (i <= size)
 	{
 		ft_rev_int_tab(tab, size);
 		printf("%d", tab[i]);
 		i++;
-		size --;
 	}
-}
+}*/
